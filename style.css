@@ -33,4 +33,43 @@ div {
     margin: 20px auto;
     width: 960px;
 }
+div button {
+    float: right;
+    text-transform: uppercase;
+}
+div h1{
+    font-size: 25px;
+}
+.content p {
+    font-family: Cambria, serif;
+    color: Gray;
+    text-indent: 50px;
+    padding-top: 20px;
+}
+.content ul {
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 150px;
+    list-style-type: square;
+}
+#author h3{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#author img{
+    float: left;
+    display: inline-block;
+}
+#author button{
+    float: right;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
 
