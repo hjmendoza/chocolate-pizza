@@ -6,12 +6,20 @@ body {
 
 
 header {
-    
+    height: 50px;
     width: 960px;
     margin: 30px auto;
     border-bottom: 8px gray solid;
 }
 
+#left {
+    float: left;
+    width: 480px;
+}
+#right {
+    float: right;
+    width: 480px;
+}
 
 td {
     margin: 0px;
@@ -19,18 +27,70 @@ td {
     vertical-align: top;
 }
 
+
 nav {
     float: right;
     margin-top: 0px;
 }
 
 nav ul li {
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-block;
 }
 
-div {
+.post {
     margin: 20px auto;
     width: 960px;
 }
 
+.content {
+    margin: 20px auto;
+    width: 960px;
+}
+
+p {
+    text-indent: 10px;
+    max-width: 960px;
+    margin-top: 15px;
+    /* padding: 15px; */
+}
+
+.notepad {
+    width: 960px;
+    background-color: #f5f0ab;
+    margin: auto;
+}
+
+
+#recipe {
+    color: #555;
+    font-size: 100%;
+    margin: auto;
+    padding: 0;
+    width: 950px;
+    font-family: courier, monospace;
+    border: 1px solid #dedede;
+  }
+  #recipe li {
+    list-style: circle;
+    border-bottom: 1px dotted black;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+  }
+  #recipe li:hover {
+    background-color: #f5f0ab;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -ms-transition:     all 0.2s;
+    -o-transition:      all 0.2s;
+  }
+  .lines {
+    border-left: 1px solid #ffaa9f;
+    border-right: 1px solid #ffaa9f;
+    width: 2px;
+    float: left;
+    height: 370px;
+    margin-left: 40px;
+
+  }
